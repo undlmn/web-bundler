@@ -1,0 +1,38 @@
+{
+  "name": "web-bundler",
+  "version": "1.0.2",
+  "description": "Bundling up all of your CommonJS modules for the browser.",
+  "keywords": [
+    "bundler",
+    "pack",
+    "CommonJS"
+  ],
+  "author": {
+    "name": "undlmn"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undlmn/web-bundler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/undlmn/web-bundler/issues"
+  },
+  "main": "index.js",
+  "bin": {
+    "bundler": "bin/bundler"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "files": [
+    "bin",
+    "handlers",
+    "lib",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "commander": "^2.9.0",
+    "uglify-js": "^2.6.2"
+  }
+}
